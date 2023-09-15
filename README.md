@@ -7,4 +7,12 @@ While the MetNet REST API can be used in stand-alone mode, it is best used throu
 
 More information about the MetNet REST API, including the meaning of the parameters involved and how to use the API, is provided at its SmartAPI page (<a href="https://smart-api.info/registry?q=f770f3e71163f5b66bcaf5ff74616540">SmartAPI for MetNet</a>).
 
+## Examples:
+
+### Example of specifying the list of metabolites in a file (one metabolite per line): The file URL is tripple encoded.
+https://bdcw.org/MetENP/rest/metclass/sub_class/updown_fillcolor/red__green__blue/enrich_stats/HG/no/1/sps/hsa/padj/fdr/kegg_comp_path/FALSE/geneoption/TRUE/PPIopt/1_1000_900/location/1/metlistfname/https%25253A%25252F%25252Fsc-cfdewebdev.sdsc.edu%25252Ftmp%25252Fmetlist.txt/View/txt
+
+### Example of specifying the list of metabolites directly in the URL (separated by \n, then tripple encoded):
+https://bdcw.org/MetENP/rest/metclass/sub_class/updown_fillcolor/red__green__blue/enrich_stats/HG/no/1/sps/hsa/padj/BH/kegg_comp_path/FALSE/geneoption/TRUE/PPIopt/1_1500_700/location/0/metlistfname/NAD%25252B%25255CnNADH%25255CnNADPH%25255CnNADP%25252B%25255CnGlucose%2525206-phosphate%25255Cn6-Phosphonoglucono-D-lactone%25255CnRibulose%2525205-phosphate%25255Cn6-Phosphogluconic%252520acid%25255CnXylulose%2525205-phosphate%25255CnGlyceraldehyde%2525203-phosphate%25255CnErythrose%2525204-phosphate%25255CnSedoheptulose%2525207-phosphate%25255CnFructose%2525206-phosphate%25255CnRibose%2525205-phosphate%25255CnATP%25255CnADP%25255CnXylulose/View/json
+
 Please contact Mano Maurya (mano@sdsc.edu) for any questions.
