@@ -9,10 +9,17 @@ More information about the MetNet REST API, including the meaning of the paramet
 
 ## Examples:
 
-### Example of specifying the list of metabolites in a file (one metabolite per line): The file URL is tripple encoded.
+### Example of specifying the list of metabolites in a file (one metabolite per line):
+
+The file URL, https://sc-cfdewebdev.sdsc.edu/tmp/metlist.txt, is tripple encoded (using rawurlencode in php or encodeURIComponent in javascript/typescript).
+
 https://bdcw.org/MetENP/rest/metclass/sub_class/updown_fillcolor/red__green__blue/enrich_stats/HG/no/1/sps/hsa/padj/fdr/kegg_comp_path/FALSE/geneoption/TRUE/PPIopt/1_1000_900/location/1/metlistfname/https%25253A%25252F%25252Fsc-cfdewebdev.sdsc.edu%25252Ftmp%25252Fmetlist.txt/View/txt
 
-### Example of specifying the list of metabolites directly in the URL (separated by \n, then tripple encoded):
+### Example of specifying the list of metabolites directly in the URL (separated by \n, then tripple encoded, so that, \n becomes %25255Cn):
+List of metabolites (as a comma separated list):
+NAD+, NADH, NADPH, NADP+, Glucose 6-phosphate, 6-Phosphonoglucono-D-lactone, Ribulose 5-phosphate, 6-Phosphogluconic acid, Xylulose 5-phosphate, Glyceraldehyde 3-phosphate, Erythrose 4-phosphate, 
+Sedoheptulose 7-phosphate, Fructose 6-phosphate, Ribose 5-phosphate, ATP, ADP, Xylulose
+
 https://bdcw.org/MetENP/rest/metclass/sub_class/updown_fillcolor/red__green__blue/enrich_stats/HG/no/1/sps/hsa/padj/BH/kegg_comp_path/FALSE/geneoption/TRUE/PPIopt/1_1500_700/location/0/metlistfname/NAD%25252B%25255CnNADH%25255CnNADPH%25255CnNADP%25252B%25255CnGlucose%2525206-phosphate%25255Cn6-Phosphonoglucono-D-lactone%25255CnRibulose%2525205-phosphate%25255Cn6-Phosphogluconic%252520acid%25255CnXylulose%2525205-phosphate%25255CnGlyceraldehyde%2525203-phosphate%25255CnErythrose%2525204-phosphate%25255CnSedoheptulose%2525207-phosphate%25255CnFructose%2525206-phosphate%25255CnRibose%2525205-phosphate%25255CnATP%25255CnADP%25255CnXylulose/View/json
 
 Please contact Mano Maurya (mano@sdsc.edu) for any questions.
