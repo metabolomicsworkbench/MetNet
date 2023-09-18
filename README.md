@@ -5,7 +5,7 @@ Given a list of metabolites, e.g., metabolites with significant change between t
 
 While the MetNet REST API can be used in stand-alone mode, it is best used through a workflow development tool such as the NIH Common Fund Data Ecosystem (CFDE) Workflow Builder Tool (WBT) available at https://playbook-workflow-builder.cloud (see also https://github.com/nih-cfde/playbook-partnership/ and please note that some features of this API may be available only in a separate development instance available at <a href="https://github.com/metabolomicsworkbench/playbook-partnership/tree/playbook-partnership-mano-20221129">WBT development page for Metabolomics Workbench</a>). Downstream of the metabolite-related gene list, using the WBT, one can develop gene regulatory networks and then perform functional interpretation through pathway/gene set enrichment. The WBT also allows one to use our MetGENE tool (<a href="https://github.com/metabolomicsworkbench/MetGENE">MetGENE website</a> and <a href="https://smart-api.info/ui/342e4cec92030d74efd84b61650fb0ea">SmartAPI for MetGENE</a>), where, starting with one or more genes, one can identify the related reactions and metabolites that can serve as a starting list of metabolites for MetNet. 
 
-More information about the MetNet REST API, including the meaning of the parameters involved and how to use the API, is provided at its SmartAPI page (<a href="https://smart-api.info/registry?q=f770f3e71163f5b66bcaf5ff74616540">SmartAPI for MetNet</a>).
+More information about the MetNet REST API, including the meaning of the parameters involved and how to use the API, is provided at its SmartAPI page (<a href="http://smart-api.info/registry?q=67cc0e21b6238472f6f1f00e6b7c32aa">SmartAPI for MetNet</a>).
 
 ## Examples:
 
