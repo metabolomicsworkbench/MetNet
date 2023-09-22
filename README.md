@@ -9,6 +9,9 @@ More information about the MetNet REST API, including the meaning of the paramet
 
 ## Examples:
 
+### Example through a Playbook Workflow
+An example workflow to find information related to the human gene RPE (<a href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=RPE">Ribulose-5-Phosphate-3-Epimerase</a>; related explorations: <a href="https://bdcw.org/geneid/rest/species/hsa/GeneIDType/SYMBOL/GeneListStr/RPE/View/json">Gene ID conversion: other IDs for RPE</a>, <a href="https://bdcw.org/MetGENE/rest/summary/species/hsa/GeneIDType/SYMBOL/GeneInfoStr/RPE/anatomy/NA/disease/NA/phenotype/NA/viewType/json">MetGENE: metabolite relevant information for RPE</a>), implemented through CFDE Playbook Workflow Builder Tool, is provided <a href="https://bdcw.org/MW/docs/UseCase11_MW_RPE_Playbook.pdf">here</a>.
+
 ### Example of specifying the list of metabolites in a file (one metabolite per line):
 
 The file URL, https://sc-cfdewebdev.sdsc.edu/tmp/metlist.txt, is tripple encoded (using rawurlencode in php or encodeURIComponent in javascript/typescript).
