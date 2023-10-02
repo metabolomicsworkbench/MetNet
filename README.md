@@ -14,11 +14,11 @@ An example workflow to find information related to the human gene RPE (<a href="
 
 ### Example of specifying the list of metabolites in a file (one metabolite per line):
 
-The file URL, https://sc-cfdewebdev.sdsc.edu/tmp/metlist.txt, is tripple encoded (using rawurlencode in php or encodeURIComponent in javascript/typescript).
+The file URL, https://sc-cfdewebdev.sdsc.edu/tmp/metlist.txt, is triple encoded (using rawurlencode in php or encodeURIComponent in javascript/typescript).
 
 https://bdcw.org/MetENP/rest/metclass/sub_class/updown_fillcolor/red__green__blue/enrich_stats/HG/no/1/sps/hsa/padj/fdr/kegg_comp_path/FALSE/geneoption/TRUE/PPIopt/1_1000_900/location/1/metlistfname/https%25253A%25252F%25252Fsc-cfdewebdev.sdsc.edu%25252Ftmp%25252Fmetlist.txt/View/txt
 
-### Example of specifying the list of metabolites directly in the URL (separated by \n, then tripple encoded, so that, \n becomes %25255Cn):
+### Example of specifying the list of metabolites directly in the URL (separated by \n, then triple encoded, so that, \n becomes %25255Cn):
 List of metabolites (as a comma separated list):
 NAD+, NADH, NADPH, NADP+, Glucose 6-phosphate, 6-Phosphonoglucono-D-lactone, Ribulose 5-phosphate, 6-Phosphogluconic acid, Xylulose 5-phosphate, Glyceraldehyde 3-phosphate, Erythrose 4-phosphate, 
 Sedoheptulose 7-phosphate, Fructose 6-phosphate, Ribose 5-phosphate, ATP, ADP, Xylulose
